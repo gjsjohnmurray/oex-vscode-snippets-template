@@ -14,7 +14,7 @@
 			  "webServer": {
 				"scheme": "http",
 				"host": "localhost",
-				"port": 61745
+				"port": 52774
 			  },
 			  "description": "Connection to IRIS in Docker container",
 			  "username": "SuperUser"
