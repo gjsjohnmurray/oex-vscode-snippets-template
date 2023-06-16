@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "intersystems-community.servermanager",
+        "intersystems-community.vscode-objectscript",
+        "intersystems.language-server",
+        "ms-azuretools.vscode-docker",
+    ]
+}

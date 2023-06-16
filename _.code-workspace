@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "docker:USER (test snippets here)",
+			"uri": "isfs://docker:user/?mapped=0"
+		}
+	],
+	"settings": {
+		"intersystems.servers": {
+			"docker": {
+			  "webServer": {
+				"scheme": "http",
+				"host": "localhost",
+				"port": 61745
+			  },
+			  "description": "Connection to IRIS in Docker container",
+			  "username": "SuperUser"
+			},
+			"/default": "docker",
+			"/hideEmbeddedEntries": true,
+		},
+		
+	}
+}

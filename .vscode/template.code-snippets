@@ -1,0 +1,15 @@
+{
+	"New Snippets File": {
+		"isFileTemplate": true,
+		"scope": "jsonc",
+		"body": [
+			"{",
+			"\t// To get installed the file must be in src/snippets and its name must begin '_OEX_' and end '.code-snippets'",
+			"\t// We recommend that the middle part of the filename is structured as 'dcHandle_anySuffix'",
+			"\t//  - 'dcHandle' is the ID you can be @-mentioned with in DC posts",
+			"\t//  - 'anySuffix' is some text of your choice to make this file unique among all .code-snippets files you will publish.",
+			"\t// Example: _OEX_John.Murray_exampleInTemplate.code-snippets",
+			"}"
+		]
+	}
+}

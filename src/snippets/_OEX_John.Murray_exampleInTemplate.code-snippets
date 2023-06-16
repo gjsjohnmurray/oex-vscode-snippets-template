@@ -1,0 +1,34 @@
+{
+	// To get installed the file must be in src/snippets and its name must begin '_OEX_' and end '.code-snippets'
+	// We recommend that the middle part of the filename is structured as 'dcHandle_anySuffix'
+	//  - 'dcHandle' is the ID you can be @-mentioned with in DC posts
+	//  - 'anySuffix' is some text of your choice to make this file unique among all .code-snippets files you will publish.
+	// Example: _OEX_John.Murray_exampleInTemplate.code-snippets
+
+	"TODO inline": {
+		"scope": "objectscript,objectscript-class,objectscript-int",
+		"prefix": "TODO",
+		"description": "Add inline TODO comment",
+		"body": " /* TODO $0 */",
+	},
+	"TODO block": {
+		"scope": "objectscript,objectscript-class,objectscript-int",
+		"prefix": "TODO*",
+		"description": "Add TODO comment block",
+		"body": [
+			" /* TODO",
+			"$0",
+			"*/"
+		]
+	},
+	"TODO block + label": {
+		"scope": "objectscript,objectscript-class,objectscript-int",
+		"prefix": "TODO*+",
+		"description": "Add TODO comment block with label",
+		"body": [
+			" /* TODO - ${1:label}",
+			"$0",
+			"ODOT - ${1:label} */"
+		]
+	},
+}
