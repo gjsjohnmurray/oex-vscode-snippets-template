@@ -1,11 +1,11 @@
 # oex-vscode-snippets-template
-Template for a repository that will publish [VS Code snippet files](https://code.visualstudio.com/docs/editor/userdefinedsnippets) in an IPM package, typically via https://openexchange.intersystems.com 
+Template for a repository that will publish [VS Code snippet files](https://code.visualstudio.com/docs/editor/userdefinedsnippets) in an IPM package, typically via [https://openexchange.intersystems.com](https://openexchange.intersystems.com/). 
 
 ## How To Use This Template
 
 ### Create a new repository from the template
 
-Go to https://github.com/gjsjohnmurray/oex-vscode-snippets-template and click the `Use this template` button to create a new repository within your GitHub account.
+Go to [https://github.com/gjsjohnmurray/oex-vscode-snippets-template](https://github.com/gjsjohnmurray/oex-vscode-snippets-template) and click the `Use this template` button to create a new repository within your GitHub account.
 
 To learn more about this step, visit [GitHub Docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
 
