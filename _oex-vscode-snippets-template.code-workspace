@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"name": "Project",
+			"path": "."
+		},
+		{
+			"name": "IRIS Server (test your snippets here)",
+			"uri": "isfs://Project/?mapped=0"
+		}
+	],
+	"settings": {
+	}
+}
