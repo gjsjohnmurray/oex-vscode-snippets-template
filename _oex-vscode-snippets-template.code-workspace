@@ -6,7 +6,7 @@
 		},
 		{
 			"name": "IRIS Server (test your snippets here)",
-			"uri": "isfs://Project/?mapped=0"
+			"uri": "isfs://Project/?mapped=0&ns=USER"
 		}
 	],
 	"settings": {
