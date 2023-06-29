@@ -46,7 +46,7 @@ The workspace has two root folders:
 Before you can access the IRIS Server you must refresh the connection to it. 
 
 1. Click on the `ObjectScript` panel on the status bar.
-2. In the quickpick that appears top-centre of your window choose `Refresh Connection` if available, else `Toggle Connection`.
+2. In the quickpick that appears top-centre of your window choose `Toggle Connection`.
 
 After a few seconds the status bar panel should change to report being connected to the USER namespace of a localhost IRIS port, but its hover tip may still report a problem such as "socket hang up". Solve this by running `Developer: Reload Window` from Command Palette. When that completes, use `Toggle Connection` again from the status bar panel.
 
@@ -79,10 +79,11 @@ To verify how your snippets will behave when used while writing code, create new
 1. Open the `module.xml` file in the `Project` root.
 2. Edit the `name` attribute of its `<Document>` tag to become the name of the Open Exchange package you will publish. The recommended convention is `vscode-snippets-`_`yourId`_`-`_`suffix`_ where _yourid_ is your Developer Community handle and _suffix_ is whatever you choose to distinguish this published snippets module from others you create. The suffix isn't necessarily the same as the suffix you used in the snippets filename because one package can contain multiple snippet files.
 3. Make the same change in the `<Name>` sub-section of `<Module>`.
-3. Edit `README.md` to remove these template instructions and replace them with your own content. Please retain a reference to the template repository from which you created yours.
-4. Edit `LICENSE` to credit yourself with the snippets. Please also credit me as the author of the framework.
-5. Edit `CHANGELOG.md` appropriately.
-6. Use VS Code's Source Control view to stage, commit and push your changes to your GitHub repository. Expect to only see changes to the files mentioned above plus your `src/snippets/_OEX_*` files. Please do not publish any `_OEX_John.Murray_*` files.
+4. Edit the contents of `<Description>`.
+5. Edit `README.md` to remove these template instructions and replace them with your own content. Please retain a reference to the template repository from which you created yours.
+6. Edit `LICENSE` to credit yourself with the snippets. Please also credit me as the author of the framework.
+7. Edit `CHANGELOG.md` appropriately.
+8. Use VS Code's Source Control view to stage, commit and push your changes to your GitHub repository. Expect to only see changes to the files mentioned above plus your `src/snippets/_OEX_*` files, and deletions corresponding to file renames you did. Please do not publish any `_OEX_John.Murray_*` files.
 
 Now publish on Open Exchange by pointing to your GitHub repository URL and setting the `Publish in Package Manager` checkbox. See [this DC article](https://community.intersystems.com/post/objectscript-package-auto-publishing-now-available-open-exchange) for more details, or consult [Open Exchange documentation](https://docs.openexchange.intersystems.com/solutions/submit/).
 
