@@ -1,4 +1,4 @@
-ARG IMAGE=intersystemsdc/iris-community
+ARG IMAGE=intersystemsdc/irishealth-community
 FROM $IMAGE
 
 WORKDIR /home/irisowner/dev/

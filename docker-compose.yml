@@ -12,3 +12,4 @@ services:
       - 53773
     volumes:
       - ./:/home/irisowner/dev/
+      - ./src/snippets/:/usr/irissys/.vscode/USER/

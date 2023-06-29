@@ -9,6 +9,16 @@
 			"\t//  - 'dcHandle' is the ID you can be @-mentioned with in DC posts",
 			"\t//  - 'anySuffix' is some text of your choice to make this file unique among all .code-snippets files you will publish.",
 			"\t// Example: _OEX_John.Murray_exampleInTemplate.code-snippets",
+			"\t//",
+			"\t// See https://code.visualstudio.com/docs/editor/userdefinedsnippets for snippet syntax documentation.",
+			"\t",
+			"\t\"${1:snippetName}\": {",
+			"\t\t\"prefix\": \"${2:prefix}\",",
+			"\t\t\"body\": [",
+			"\t\t\t\"${3:snippetLine1}\",",
+			"\t\t],",
+			"\t\t\"description\": \"${4:description}\",",
+			"\t}",
 			"}"
 		]
 	}

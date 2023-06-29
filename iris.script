@@ -1,12 +1,7 @@
     zn "%SYS"
     Do ##class(Security.Users).UnExpireUserPasswords("*")
 
-    zn "USER"
-
     ; Create the /_vscode webapp
     zpm "install vscode-per-namespace-settings"
-
-    ; Install ourself from local sources
-    zpm "load /home/irisowner/dev/ -dev -v":1:1
 
     halt

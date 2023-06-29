@@ -6,6 +6,12 @@
       <Version>1.0.0</Version>
       <Description>Install VS Code snippet files for use with intersystems-community.vscode-objectscript extension in server-side editing mode</Description>
       <Packaging>module</Packaging>
+      <Dependencies>
+        <ModuleReference>
+          <Name>vscode-per-namespace-settings</Name>
+          <Version>*</Version>
+        </ModuleReference>
+      </Dependencies>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="%Z.IPM.Bootstraps.Main.CLS" />
       <Invoke Class="%Z.IPM.Bootstraps.Main" Method="InstallSnippets" CheckStatus="true">
